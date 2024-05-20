@@ -1,12 +1,12 @@
 import React from 'react'
-import City2Image from '../images/city2.jpg'
+import City3Image from '../images/city3.jpg'
 
-const City2 = () => {
+const City3 = () => {
   return (
-    <div>
-      <img src={City2Image} alt="City" />
+    <div className='gallery-image'>
+      <img src={City3Image} alt="City" />
     </div>
   )
 }
 
-export default City2
+export default City3

@@ -13,75 +13,75 @@ import City10 from './City10';
 
 const Navigation = () => {
   return (
-    <div>
+    <div className='flex flex-row gap-5 mt-10'>
       {/* City 1 */}
-      <Link to='city1'>
+      <Link to='city1' className='link'>
         <figure>
           <City1 />
-          <figcaption>City</figcaption>
+          <figcaption>City 1</figcaption>
         </figure>
       </Link>
       {/* City 2 */}
-      <Link to='city2'>
+      <Link to='city2' className='link'>
         <figure>
           <City2 />
-          <figcaption>City</figcaption>
+          <figcaption>City 2</figcaption>
         </figure>
       </Link>
       {/* City 3 */}
-      <Link to='city3'>
+      <Link to='city3' className='link'>
         <figure>
           <City3 />
-          <figcaption>City</figcaption>
+          <figcaption>City 3</figcaption>
         </figure>
       </Link>
       {/* City 4 */}
-      <Link to='city4'>
+      <Link to='city4' className='link'>
         <figure>
           <City4 />
-          <figcaption>City</figcaption>
+          <figcaption>City 4</figcaption>
         </figure>
       </Link>
       {/* City 5 */}
-      <Link to='city5'>
+      <Link to='city5' className='link'>
         <figure>
           <City5 />
-          <figcaption>City</figcaption>
+          <figcaption>City 5</figcaption>
         </figure>
       </Link>
       {/* City 6 */}
-      <Link to='city6'>
+      <Link to='city6' className='link'>
         <figure>
           <City6 />
-          <figcaption>City</figcaption>
+          <figcaption>City 6</figcaption>
         </figure>
       </Link>
       {/* City 7 */}
-      <Link to='city7'>
+      <Link to='city7' className='link'>
         <figure>
           <City7 />
-          <figcaption>City</figcaption>
+          <figcaption>City 7</figcaption>
         </figure>
       </Link>
       {/* City 8 */}
-      <Link to='city8'>
+      <Link to='city8' className='link'>
         <figure>
           <City8 />
-          <figcaption>City</figcaption>
+          <figcaption>City 8</figcaption>
         </figure>
       </Link>
       {/* City 9 */}
-      <Link to='city9'>
+      <Link to='city9' className='link'>
         <figure>
           <City9 />
-          <figcaption>City</figcaption>
+          <figcaption>City 9</figcaption>
         </figure>
       </Link>
       {/* City 10 */}
-      <Link to='city10'>
+      <Link to='city10' className='link'>
         <figure>
           <City10 />
-          <figcaption>City</figcaption>
+          <figcaption>City 10</figcaption>
         </figure>
       </Link>
     </div>

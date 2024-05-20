@@ -1,0 +1,26 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.gallery-image {
+  @apply max-w-[600px];
+}
+
+.gallery-image img {
+  @apply w-full 
+  h-full 
+  object-cover 
+  rounded-lg
+  brightness-75
+  transition ease-in-out duration-150
+  hover:scale-110
+  hover:brightness-100
+  ;
+}
+
+.link {
+  @apply
+  underline
+  hover:text-slate-500
+  ;
+}

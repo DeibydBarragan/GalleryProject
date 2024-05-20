@@ -3,7 +3,7 @@ import City6Image from '../images/city6.jpg'
 
 const City6 = () => {
   return (
-    <div>
+    <div className='gallery-image'>
       <img src={City6Image} alt="City" />
     </div>
   )
